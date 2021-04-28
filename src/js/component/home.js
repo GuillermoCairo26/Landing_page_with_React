@@ -1,5 +1,7 @@
 import React from "react";
 import { Jumbotron } from "./jumbotron.js";
+import { Cards } from "./cards.js";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -8,6 +10,7 @@ export function Home() {
 	return (
 		<div className="text-center mt-5">
 			<Jumbotron />
+            <Cards/>
 		</div>
 	);
 }
