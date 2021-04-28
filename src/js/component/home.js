@@ -8,12 +8,16 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 export function Home() {
-    return (
-        <div className="text-center mt-5">
-            <Jumbotron />
-            <Cards />
-            <NavBar />
-
-        </div>
-    );
+	return (
+		<div className="container">
+			<NavBar />
+			<Jumbotron />
+			<div className="row justify-content-around">
+				<Cards />
+				<Cards />
+				<Cards />
+				<Cards />
+			</div>
+		</div>
+	);
 }
